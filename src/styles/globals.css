@@ -23,6 +23,7 @@
 html {
 	font-family: var(--font-family-primary);
 	/* font-family: "Nunito Sans"; */
+	scroll-behavior: smooth;
 }
 
 body {

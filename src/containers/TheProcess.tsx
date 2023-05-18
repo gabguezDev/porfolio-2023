@@ -6,7 +6,6 @@ import Looks3Icon from "@mui/icons-material/Looks3";
 import Looks4Icon from "@mui/icons-material/Looks4";
 
 import { Card } from "@/components";
-import { Section } from "./Section";
 
 const steps = [
 	{
@@ -64,15 +63,10 @@ const steps = [
 
 export const TheProcess = () => {
 	return (
-		<Section
-			title="The Process"
-			renderContent={() => (
-				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-x-1  lg:gap-3">
-					{steps.map(({ title, icon, render }) => (
-						<Card key={title} title={title} Icon={icon} description={render} />
-					))}
-				</div>
-			)}
-		/>
+		<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-x-1  lg:gap-3">
+			{steps.map(({ title, icon, render }) => (
+				<Card key={title} title={title} Icon={icon} description={render} />
+			))}
+		</div>
 	);
 };
