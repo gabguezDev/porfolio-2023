@@ -14,7 +14,7 @@ export const Resources = () => {
 					// imgWidth={queueProject.width}
 					// imgHeight={queueProject.height}
 					// imgAlt="QUEUE project image."
-					link="https://github.com/gabguezDev/queue-app"
+					href="https://github.com/gabguezDev/queue-app"
 				/>
 				<Card
 					title="Clean Code"
@@ -23,7 +23,7 @@ export const Resources = () => {
 					// imgWidth={crudProject.width}
 					// imgHeight={crudProject.height}
 					// imgAlt="CRUD project image."
-					link="https://github.com/gabguezDev/basic-rest-server-node"
+					href="https://github.com/gabguezDev/basic-rest-server-node"
 				/>
 			</Grid>
 		</Section>
