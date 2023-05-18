@@ -34,7 +34,6 @@ export const Whatido = (props: Props) => {
 					Icon={PhoneIphoneIcon}
 				/>
 			</Grid>
-			{/* TODO: REFACTOR THIS COMPONENT TO MAKE CARDGRID REUSABLE */}
 		</Section>
 	);
 };

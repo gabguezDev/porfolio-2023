@@ -16,7 +16,7 @@ type Props = {
 	imgAlt?: string;
 	imgUrl?: StaticImageData;
 	description: ReactNode;
-	href: string;
+	href?: string;
 	actionLabel?: string;
 };
 
@@ -46,8 +46,6 @@ export const Card = ({
 					{description}
 				</p>
 
-				<CardAction href={href}>{actionLabel}</CardAction>
-
 				{imgUrl && (
 					<CardMedia
 						imgUrl={imgUrl.src}
@@ -55,6 +53,9 @@ export const Card = ({
 						imgHeight={imgUrl.height}
 						imgWidth={imgUrl.width}
 					/>
+				)}
+				{href && actionLabel && (
+					<CardAction href={href}>{actionLabel}</CardAction>
 				)}
 			</CardContent>
 		</div>

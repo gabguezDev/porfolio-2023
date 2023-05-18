@@ -17,6 +17,7 @@ export const Projects = () => {
 					imgUrl={queueProject}
 					imgAlt="QUEUE project image."
 					href="https://github.com/gabguezDev/queue-app"
+					actionLabel="Go to repo"
 				/>
 				<Card
 					title="CRUD (ABM) & Flexible Search"
@@ -24,6 +25,7 @@ export const Projects = () => {
 					imgUrl={crudProject}
 					imgAlt="CRUD project image."
 					href="https://github.com/gabguezDev/basic-rest-server-node"
+					actionLabel="Go to repo"
 				/>
 			</Grid>
 		</Section>

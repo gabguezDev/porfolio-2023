@@ -14,11 +14,11 @@ const StandardLayout: FC<StandarLayoutProps> = ({ children }) => {
 	const { width } = useWindowSize();
 
 	return (
-		<div>
+		<>
 			<Navbar />
 			{children}
 			<Footer />
-		</div>
+		</>
 	);
 };
 

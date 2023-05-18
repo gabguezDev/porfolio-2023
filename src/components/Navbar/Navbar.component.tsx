@@ -4,12 +4,12 @@ import { NavLink } from "./NavLink/NavLink.component";
 
 export const Navbar = (): JSX.Element => {
 	const classes =
-		"fixed bottom-0 md:sticky md:top-0 w-full flex items-center z-20 bg-black py-4 md:p-6";
+		"fixed bottom-0 md:sticky md:top-0 md:left-0 w-full my-1 flex items-center z-20 bg-black py-3 md:p-6";
 
 	return (
 		<nav className={classes}>
 			<NavLogo>Gabguez Dev</NavLogo>
-			<div className="flex items-center justify-around w-full md:w-auto md:space-x-5">
+			<div className="relative flex items-center justify-around h-6 w-full md:w-auto md:space-x-5">
 				<NavLink href="#hello" className="hidden md:flex">
 					Home
 				</NavLink>

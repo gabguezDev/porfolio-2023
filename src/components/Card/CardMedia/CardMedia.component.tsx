@@ -37,7 +37,7 @@ export const CardMedia = ({ imgUrl, imgAlt, imgHeight, imgWidth }: Props) => {
 				alt={imgAlt || ""}
 				width={imgWidth}
 				height={imgHeight}
-				className="cursor-pointer mx-auto"
+				className="flex cursor-pointer mx-auto"
 			/>
 			{slotOpen && (
 				<Dialog onClose={handleToggleSlot} open={slotOpen}>
