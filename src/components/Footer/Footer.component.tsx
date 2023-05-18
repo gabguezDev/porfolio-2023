@@ -8,23 +8,23 @@ type Props = {};
 
 export const Footer = (props: Props) => {
 	return (
-		<div className="flex justify-center items-center flex-col">
+		<div className="hidden md:flex justify-center items-center flex-col">
 			<hr className="w-[90%] border-slate-500" />
-			<p className="mt-8 text-sm">Reach me out</p>
+			<h4 className="mt-8 text-sm">Reach me out</h4>
 			<div className="flex mt-2 mb-10">
 				<IconButton
 					href="https://github.com/gabguezDev"
 					referrerPolicy="no-referrer"
 					target="_blank"
 				>
-					<GitHubIcon className="text-white" />
+					<GitHubIcon fontSize="large" className="text-white" />
 				</IconButton>
 				<IconButton
 					href="https://www.linkedin.com/in/gabrielodominguez/"
 					referrerPolicy="no-referrer"
 					target="_blank"
 				>
-					<LinkedInIcon className="text-white" />
+					<LinkedInIcon fontSize="large" className="text-white" />
 				</IconButton>
 			</div>
 		</div>

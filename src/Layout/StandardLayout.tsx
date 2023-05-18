@@ -4,7 +4,7 @@ import { useWindowSize } from "@/hooks";
 
 import { breakpoints } from "@/styles";
 
-import { Footer, TopNav, BottomNav } from "@/components";
+import { Footer, Navbar } from "@/components";
 
 type StandarLayoutProps = {
 	children: ReactNode;
@@ -15,9 +15,9 @@ const StandardLayout: FC<StandarLayoutProps> = ({ children }) => {
 
 	return (
 		<div>
-			{width >= breakpoints.md && <TopNav />}
+			<Navbar />
 			{children}
-			{width < breakpoints.md ? <BottomNav /> : <Footer />}
+			<Footer />
 		</div>
 	);
 };
