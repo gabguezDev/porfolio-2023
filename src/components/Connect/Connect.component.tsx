@@ -24,7 +24,7 @@ export const Connect = () => {
 					<LinkedInIcon fontSize="large" className="text-white" />
 				</IconButton>
 				<IconButton
-					href=""
+					href="mailto:gabrielodominguez10@gmail.com"
 					referrerPolicy="no-referrer"
 					target="_blank"
 					rel="noopener norel"
