@@ -20,7 +20,7 @@ export const Resources = () => {
 					// imgWidth={queueProject.width}
 					// imgHeight={queueProject.height}
 					// imgAlt="QUEUE project image."
-					href="https://github.com/gabguezDev/queue-app"
+					href="https://refactoring.guru/design-patterns"
 					actionLabel="Go to resource"
 				/>
 				<Card
@@ -32,7 +32,7 @@ export const Resources = () => {
 					// imgWidth={crudProject.width}
 					// imgHeight={crudProject.height}
 					// imgAlt="CRUD project image."
-					href="https://github.com/gabguezDev/basic-rest-server-node"
+					href="https://refactoring.guru/es/refactoring/what-is-refactoring"
 					actionLabel="Go to resource"
 				/>
 			</Grid>
